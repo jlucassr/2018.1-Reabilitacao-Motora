@@ -14,6 +14,8 @@ Data|Versão|Descrição|Autor
 16/03|1.9.0|Adição do subitem 3.5 e 3.6|Davi Alves
 16/03|1.9.1|Revisão e Correção dos itens|João Lucas
 18/03|1.9.2|Revisão e Correção dos itens 2, 3, 3.3.1, 3.4.1 e 3.4.2|Guilherme de Lyra
+21/03|2.0.0|Adição do tópico 5 e 6|Djorkaeff Alexandre
+
 # Sumário
 
 1. [Introdução](#1)
@@ -208,20 +210,36 @@ ___
 ___
 
 ### 5. <a name="5">Recursos do Produto</a>
-
+<p align = "justify">
+O sistema oferece as seguintes funcionalidades aos usuários:<br />
+Gerenciar e manter usuários (pacientes): os profissionais de fisioterapia poderão cadastrar novos pacientes no sistema, atualizar os dados de um paciente e também remover um paciente.
+<br />
+Facilitar, para o fisioterapeuta, a visualização do progresso do paciente na movimentação dos membros superiores em questão e o controle dos seus pacientes.
+<br />
+Otimizar o tempo gasto pelo usuário profissional de fisioterapia ao analisar os movimentos feitos por um paciente de fisioterapia.
+<br />
+Disponibilizar ao fisioterapeuta as informações referentes a cada paciente cadastrado.
+<br />
+Possibilitar ao fisioterapeuta a criação de um padrão de movimento para que o paciente possa repetir esse movimento durante as sessões de fisioterapia, com o intuito de melhorar seus movimentos.
+<br />
+Possibilitar ao fisioterapeuta rotular os movimentos para sub-dividílos em fases.
+<br />
+Possibilitar ao fisioterapeuta atualizar, visualizar, remover e criar novos movimentos padrões.
+<br />
+</p>
 ___
 
 ### 6. <a name="6">Restrições</a>
 
 ##### 6.1 <a name="6_1">Restrições de Design</a>
-
+<p align = "justify">O design será elegante e simples, pensado ao pormenor, onde apenas o essencial tem lugar à vista.</p>
 
 ##### 6.2 <a name="6_2">Restrições de Implementação</a>
-
+<p align = "justify">O sistema será desenvolvido utilizando a linguagem c# e o Unity que é motor de jogo 3D proprietário e uma IDE criado pela Unity Technologies.</p>
 
 ##### 6.3 <a name="6_3">Restrições de Segurança</a>
-
+<p align = "justify">O programa não tem grandes restrições de segurança mas deve-se manter a base de dados segura para que os dados não sejam corrompidos pois teremos no mesmo informações pessoais e números de documentos dos pacientes, essas informações só deverão estar disponíveis para o fisioterapeuta administrador do sistema que é o único que terá acesso a usar e manter o mesmo.</p>
 
 ##### 6.4 <a name="6_4">Restrições de Uso</a>
-
+<p align = "justify">Para o uso do sistema é necessário que o usuário tenha um dispositivo do tipo Computador e um dispositivo que possa reconhecer os dados de angulação do paciente (Primeiramente utiliza-se de Kinect, que é um sensor de movimento 3d). Caso o usuário não possua o sensor o sistema deverá apresentar erro ao clicar nas opções nas quais o sensor é necessário.</p>
 ___
